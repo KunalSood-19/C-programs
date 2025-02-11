@@ -1,1 +1,438 @@
-c questions
+// lcm of two no's
+
+// #include <stdio.h>
+// int main(){
+//     int a,b,hcf=0;
+//     scanf("%d",&a);
+//     scanf("%d",&b);
+//     for (int i=1; i<=a && i<=b; i++){
+//         if (a%i==0 && b%i==0){
+//             hcf=i;
+//         }
+//     }printf("%d",hcf);
+//     return 0;
+// }
+
+
+// to find the factorial of a no
+
+// #include <stdio.h>
+// int main(){
+//     int n,fact=1;
+//     scanf("%d",&n);
+//     for (int i=1; i<=n; i++){
+//         fact*=i;
+//     }printf("%d",fact);
+//     return 0;
+// }
+
+
+// to find the sum of digits
+
+// #include <stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     int sum=0;
+//     while(n>0){
+//         int rem=n%10;
+//         sum+=rem;
+//         n=n/10;
+//     }printf("%d",sum);
+//     return 0;
+// }
+
+
+
+// to print the sum upto n digits
+
+// #include <stdio.h>
+// int main(){
+//     int n,sum=0;
+//     scanf("%d",&n);
+//     for (int i=0; i<=n; i++){
+//         sum+=i;
+//     }printf("%d",sum);
+//     return 0;
+// }
+
+
+
+
+// Practice from begining
+
+
+// Q1
+// #include <stdio.h>
+// int main(){
+//     printf("Hello, World!");
+//     return 0;
+// }
+
+
+
+// Q2
+// #include <stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     printf("%d",n);
+//     return 0;
+// }
+
+
+
+// Q3
+// #include <stdio.h>
+// int main(){
+//     int a,b;
+//     scanf("%d",&a);
+//     scanf("%d",&b);
+//     printf("%d",a+b);
+//     return 0;
+// }
+
+
+
+// Q4
+// #include <stdio.h>
+// int main(){
+//     float a,b;
+//     scanf("%f",&a);
+//     scanf("%f",&b);
+//     printf("%f",a*b);
+//     return 0;
+// }
+
+
+
+// Q5
+// #include <stdio.h>
+// int main(){
+//     char ch;
+//     scanf("%c",&ch);
+//     printf("%d",ch);
+//     return 0;
+// }
+
+
+
+// Q6
+// #include <stdio.h>
+// int main(){
+//     int a,b;
+//     scanf("%d",&a);
+//     scanf("%d",&b);
+//     printf("%d",a/b);
+//     printf("%d",a%b);
+//     return 0;
+// }
+
+
+// Q7
+// #include <stdio.h>
+// int main(){
+//     int d;
+//     double f;
+//     float g;
+//     char c;
+//     long e;
+//     printf("%u\n",sizeof(d));
+//     printf("%u\n",sizeof(f));
+//     printf("%u\n",sizeof(g));
+//     printf("%u\n",sizeof(c));
+//     printf("%u",sizeof(e));
+//     return 0;
+// }
+
+
+
+
+// Q8
+// #include <stdio.h>
+// int main(){
+//     int a,b,c;
+//     scanf("%d",&a);
+//     scanf("%d",&b);
+//     c=a;
+//     a=b;
+//     b=c;
+//     printf("%d\n",a);
+//     printf("%d",b);
+//     return 0;
+// }
+
+
+
+
+//Q9
+// #include <stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     if (n%2==0){
+//         printf("Even");
+//     }else{
+//         printf("Odd");
+//         return 0;
+//     } 
+// } 
+
+
+
+
+// Q10
+// #include <stdio.h>
+// int main(){
+//     char ch;
+//     scanf("%c",&ch);
+//     if (ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' || ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U' ){
+//         printf("Vowel");
+//     }else{
+//         printf("Consonant");
+//     }return 0;
+// }
+
+
+
+
+// Q11
+// #include <stdio.h>
+// int main(){
+//     int a,b,c;
+//     scanf("%d",&a);
+//     scanf("%d",&b);
+//     scanf("%d",&c);
+//     if (a>b && a>c){
+//         printf("a is greatest");
+//     }else if (b>a && b>c){
+//         printf("b is greatest");
+//     }else{
+//         printf("C is greatest");
+//     }return 0;
+// }
+
+
+
+//Q12
+// #include <stdio.h>
+// int main(){
+//     int y;
+//     scanf("%d",&y);
+//     if( (y%4==0 && y%100!=0) || (y%400==0)){
+//         printf("Leap");
+//     }else{
+//         printf("Non leap ");
+//     }return 0;
+// }
+
+
+
+
+
+// Q13
+// #include <stdio.h>
+// int main() {
+//     char c;
+//     printf("Enter a character: ");
+//     scanf("%c", &c);
+
+//     if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+//         printf("%c is an alphabet.", c);
+//     else
+//         printf("%c is not an alphabet.", c);
+
+//     return 0;
+// }
+
+
+
+
+// #Q14
+// #include <stdio.h>
+// int main(){
+//     int n,sum=0;
+//     scanf("%d",&n);
+//     for(int i=0; i<=n; i++){
+//          sum+=i;
+//     }printf("%d",sum);
+//     return 0;
+// }
+
+
+// Q15
+// #include <stdio.h>
+// int main(){
+//     int n,m=1;
+//     scanf("%d",&n);
+//     for(int i=1; i<=n; i++){
+//          m*=i;
+//     }printf("%d",m);
+//     return 0;
+// }
+
+
+
+// Q16
+// #include <stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     for (int i=0; i<=n; i++){
+//         printf("%d X %d=%d\n",n,i,n*i);
+//     }return 0;
+// }
+
+
+
+
+// Q17
+// #include <stdio.h>
+// int main(){
+//     int n,first=0,second=1,next;
+//     scanf("%d",&n);
+//     for (int i=0; i<=n; i++){
+//     printf("%d\n",first);
+//     next=second+first;
+//     first=second;
+//     second=next;
+   
+//     } printf("\n");
+//     return 0;
+// }
+
+
+
+
+// Q18
+// #include <stdio.h>
+// int main(){
+//     int a,b,gcd;
+//     scanf("%d",&a);
+//     scanf("%d",&b);
+//     for (int i=1; i<=a && i<=b; i++){
+//         if (a%i==0 && b%i==0){
+//             gcd=i;
+//         }
+//     }printf("%d",gcd);
+//     return 0;
+// }
+
+
+
+// Q19
+// #include <stdio.h>
+// int main(){
+//     int n,count=0;
+//     scanf("%d",&n);
+//     int i=0;
+//     while(n!=0){
+//         int rem=n%10;
+//         n=n/10;
+//         count++;
+//     }
+//     printf("%d",count);
+//     return 0;
+
+// }
+
+
+
+
+// Q20
+
+// #include <stdio.h>
+// int main(){
+//     int n,rev=0;
+//     scanf("%d",&n);
+//     while(n!=0){
+//         int rem=n%10;
+//         rev=rev*10+rem;
+//         n=n/10;
+//     }
+//     printf("%d",rev);
+//     return 0;
+// }
+
+
+
+// Q21 (ARMSTRONG)
+// #include <stdio.h>
+// int main(){
+//     int n,rev,sq=0,original;
+//     scanf("%d",&n);
+//     original=n;
+//     while (n!=0){
+//         rev=n%10;
+//         sq+=rev*rev*rev;
+//         n=n/10;
+//     }
+//     if (original==sq){
+//     printf("armstrong");
+//     }else{
+//         printf("not");
+//     }return 0;
+// }
+
+
+
+// Q22
+// #include <stdio.h>
+// int main(){
+//     char ch;
+//     scanf("%c",&ch);
+//     for (char i='a'; i<=ch; i++){
+//         printf("%c\n",i);
+//     }
+//     return 0;
+// }
+
+
+
+
+// Q23 (PALINDROME)
+// #include <stdio.h>
+// int main(){
+//     int n,rev=0,rem=0;
+//     scanf("%d",&n);
+//     while (n!=0){
+//         rem=n%10;
+//         rev=rev*10 + rem;
+//         n=n/10;
+//     }
+//     printf("%d",rev);
+//     return 0;
+// }
+
+
+
+// Q24
+// #include <stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     for (int i=1; i<=n; i++){
+//        if (n%i==0){
+//         printf("%d",i);
+//        }
+//     }
+    
+//     return 0;
+// }
+
+
+
+
+// Q25
+// #include <stdio.h>
+// int main(){
+//     int n,sum;
+//     scanf("%d",&n);
+//     for (int i=0; i<=n; i++){
+//         sum+=i;
+//     }printf("%d",sum);
+//     return 0;
+// } 
+
+
+
